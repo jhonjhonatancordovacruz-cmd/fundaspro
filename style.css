@@ -1,19 +1,30 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f3f4f6;
   margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
 }
 
-header {
-  background: #2563eb;
+.logo {
+  background: #0d47a1;
   color: white;
-  padding: 25px;
   text-align: center;
+  padding: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.logo p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
 }
 
 nav {
-  background: #1e40af;
-  padding: 12px;
+  background: #1565c0;
+  padding: 10px;
   text-align: center;
 }
 
@@ -25,41 +36,40 @@ nav a {
 }
 
 .container {
-  width: 90%;
-  max-width: 900px;
-  margin: 30px auto;
+  padding: 20px;
 }
 
-.product-card {
+.producto {
   background: white;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 12px;
   display: flex;
-  gap: 15px;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  gap: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.product-card img {
+.producto img {
   width: 120px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .btn {
-  background: #22c55e;
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 16px;
+  background: #25D366;
   color: white;
-  padding: 10px 15px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  display: inline-block;
 }
 
 footer {
-  background: #2563eb;
+  background: #0d47a1;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 15px;
+  margin-top: 30px;
 }
+
