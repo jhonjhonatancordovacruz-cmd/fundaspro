@@ -10,15 +10,17 @@ body {
 .header {
   background: #0d47a1;
   text-align: center;
-  padding: 15px;
+  padding: 10px 0;
 }
 
+
 .header img {
-  max-width: 300px;   /* tamaño del logo */
+  width: 300px;      /* tamaño real del logo */
   height: auto;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
 }
+
 
 /* ====== NAVEGACIÓN ====== */
 nav {
@@ -102,6 +104,7 @@ footer {
     width: 160px;
   }
 }
+
 
 
 
