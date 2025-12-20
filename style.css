@@ -1,27 +1,24 @@
+/* ====== ESTILOS GENERALES ====== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f5f5f5;
+  color: #111;
 }
 
-.logo {
+/* ====== HEADER CON LOGO IMAGEN ====== */
+.header {
   background: #0d47a1;
-  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
-.logo h1 {
-  margin: 0;
-  font-size: 32px;
+.header img {
+  max-width: 180px;   /* ajusta tamaño del logo */
+  height: auto;
 }
 
-.logo p {
-  margin: 5px 0 0;
-  font-size: 14px;
-  opacity: 0.9;
-}
-
+/* ====== NAVEGACIÓN ====== */
 nav {
   background: #1565c0;
   padding: 10px;
@@ -35,10 +32,18 @@ nav a {
   font-weight: bold;
 }
 
-.container {
-  padding: 20px;
+nav a:hover {
+  text-decoration: underline;
 }
 
+/* ====== CONTENEDOR ====== */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ====== PRODUCTOS ====== */
 .producto {
   background: white;
   display: flex;
@@ -47,6 +52,7 @@ nav a {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .producto img {
@@ -54,6 +60,11 @@ nav a {
   border-radius: 8px;
 }
 
+.producto h4 {
+  margin: 0 0 5px 0;
+}
+
+/* ====== BOTÓN WHATSAPP ====== */
 .btn {
   display: inline-block;
   margin-top: 8px;
@@ -65,6 +76,11 @@ nav a {
   font-weight: bold;
 }
 
+.btn:hover {
+  background: #1ebe5d;
+}
+
+/* ====== FOOTER ====== */
 footer {
   background: #0d47a1;
   color: white;
@@ -72,4 +88,18 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
+
+/* ====== RESPONSIVE (CELULAR) ====== */
+@media (max-width: 600px) {
+  .producto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .producto img {
+    width: 160px;
+  }
+}
+
+
 
