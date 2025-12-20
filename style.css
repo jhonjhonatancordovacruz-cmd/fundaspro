@@ -14,7 +14,7 @@ body {
 }
 
 .header img {
-  max-width: 260px;   /* tamaño del logo */
+  max-width: 300px;   /* tamaño del logo */
   height: auto;
   margin: 0 auto;
   display: block;
@@ -102,6 +102,7 @@ footer {
     width: 160px;
   }
 }
+
 
 
 
